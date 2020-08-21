@@ -1,7 +1,7 @@
 {
     "version": 2,
     "env": {
-        "GOOGLE_API_KEY": "@youtube-json-google-key"
+        "GOOGLE_API_KEY": "AIzaSyBNzHmEj4YuYCutC9CeOpiNH4Cdj5p1bbg"
     },
     "builds": [
         { "src": "playlist-items.js", "use": "@now/node" },
