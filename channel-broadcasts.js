@@ -6,7 +6,7 @@ import { google } from 'googleapis'
 module.exports = async function (req, res) {
     // Break out the id param from our request's query string
     const { query: { id } } = url.parse(req.url, true)
-    const perPage = 1000;
+    const perPage = 50;
 
     // Setup Youtube API V3 Service instance
     const service = google.youtube('v3')
